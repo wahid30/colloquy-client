@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<<<<<<<<<<<<<<<Job Task>>>>>>>>>>>>>>>>>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Job Description:
 
-## Available Scripts
+We are looking for a MERN stack developer to build a web application where the general people can post images and their writings. It will be like social media with important functionalities.
 
-In the project directory, you can run:
+# Task Details:
 
-### `npm start`
+# 1.Build a web application that has social media facilities.(Feel free to use your own design)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 2.Add a navigation bar with suitable and relevant options like Media, Message, About section.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 3.The home page will contain 2 more sections except header and footer.
 
-### `npm test`
+# 4.First section:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## a.The first section will have the option to add writings from text or textarea field .
 
-### `npm run build`
+## b.Upload images option from input field (show your creativity on design)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## c.Add a “submit” button. After uploading and adding some text in the field, when submit button is clicked. The text will be added to the media route.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## d.In the media page all posts and images will be shown one by one regarding the uploading serial..
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 5.Second section:
 
-### `npm run eject`
+## a.Select top 3 posts by the amount of reactions (love/like) given to the post.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## b.Display the top 3 popular posts from the media on the basis of 5(a).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 6.There will be a details button for each post. By clicking the “details” button that will be routed to another page where we will see details of that particular post.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 7.Each post will have a like or love react option in the post.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 8.Each post will have an option to add comment below the post.
 
-## Learn More
+# 9.The “About” route will show your details. (Name, email, university, address)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 10.“About” page will have an “edit” button in the top corner.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 11.By clicking the ‘edit’ button there will be a popup. In the popup there will be options for editing Name, email, university, address. After editing the data, when ‘Save’ button is clicked, updated data will be replaced.
 
-### Code Splitting
+# Authentication:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In order to view the details when the “details” button is clicked, the user has to be registered. In this case,
 
-### Analyzing the Bundle Size
+## 1.Enable google sign in and email sign in.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 2.Register a new user by email and password .
 
-### Making a Progressive Web App
+If an user wants to add a new post,, he/she will have to be registered or signed-in or logged-in.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Required technology:
 
-### Advanced Configuration
+## 1.What you have learned so far from the course, like React.js, Node.js, Mongo DB and Express.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 2.For the styling purpose, any CSS library can be used. But tailwind CSS is recommended.
 
-### Deployment
+## 3.For deployment anything like Netlify, Vercel or Firebase can be used.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 4.If you want to add any more features to make the website more eye-catching you can do that.
