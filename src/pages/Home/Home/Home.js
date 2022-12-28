@@ -1,14 +1,17 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import FirstSection from "../FirstSection/FirstSection";
-import SecondSection from "../SecondSection/SecondSection";
+import CreatePost from "../CreatePost/CreatePost";
+import MediaCategory from "../MediaCategory/MediaCategory";
+import WorldMedia from "../WorldMedia/WorldMedia";
 
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
-      <FirstSection></FirstSection>
-      <SecondSection></SecondSection>
+      {/* <Banner></Banner> */}
+      <CreatePost></CreatePost>
+      <MediaCategory></MediaCategory>
+      <WorldMedia></WorldMedia>
+      {/* <SecondSection></SecondSection> */}
     </div>
   );
 };
