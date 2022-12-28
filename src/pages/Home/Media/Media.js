@@ -7,7 +7,7 @@ import ShowMedia from "../ShowMedia/ShowMedia";
 const Media = () => {
   const [userMedia, setUserMedia] = useState();
   useEffect(() => {
-    fetch("http://localhost:5000/colloquyUser")
+    fetch("https://colloquy-server.vercel.app/colloquyUser")
       .then((res) => res.json())
       .then((data) => setUserMedia(data));
   }, []);

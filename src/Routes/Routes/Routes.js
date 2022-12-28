@@ -46,7 +46,9 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: async ({ params }) => {
-          return fetch(`http://localhost:5000/colloquyUser/${params.id}`);
+          return fetch(
+            `https://colloquy-server.vercel.app/colloquyUser/${params.id}`
+          );
         },
       },
     ],
